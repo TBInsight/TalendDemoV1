@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_zaO44F58EfCQJ-fZ9jd9UQ" name="MYSQL4DWOUTPUT" id="_zZnN0F58EfCQJ-fZ9jd9UQ" label="MYSQL4DWOUTPUT" dataPackage="_3K5HEF58EfCQJ-fZ9jd9UQ" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://sql-demo.insightcloud.net:3306/dwoutput?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="sqldemo" Password="enc:system.encryption.key.v1:4bvxFU+2y/bxxeJ/Udh7N32j8KR3eYzk1XLpYL4SJP71KsnJBTjx" ServerName="sql-demo.insightcloud.net" DatasourceName="" FileFieldName="" SID="dwoutput" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_ro_8kV5NEfCjUpDgh26nNw" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_rpj9QF5NEfCjUpDgh26nNw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_rpj9QV5NEfCjUpDgh26nNw" tag="Status" value=""/>
+    <taggedValue xmi:id="_rpj9Ql5NEfCjUpDgh26nNw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_rpj9Q15NEfCjUpDgh26nNw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_rpj9RF5NEfCjUpDgh26nNw" tag="Description" value=""/>
+    <taggedValue xmi:id="_rpj9RV5NEfCjUpDgh26nNw" tag="Author" value=""/>
+    <taggedValue xmi:id="_rpj9Rl5NEfCjUpDgh26nNw" tag="otherParameter"/>
+    <taggedValue xmi:id="_rqo7UF5NEfCjUpDgh26nNw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_rqo7UV5NEfCjUpDgh26nNw" tag="DB ProductVersion" value="8.0.42"/>
+    <taggedValue xmi:id="_rqo7Ul5NEfCjUpDgh26nNw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_ro_8kl5NEfCjUpDgh26nNw" key="CONN_PARA_KEY_USERNAME" value="sqldemo"/>
+    <parameters xmi:id="_1wrL0F58EfCQJ-fZ9jd9UQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_3K5HEF58EfCQJ-fZ9jd9UQ" name="dwoutput" dataManager="_zaO44F58EfCQJ-fZ9jd9UQ"/>
+</xmi:XMI>
