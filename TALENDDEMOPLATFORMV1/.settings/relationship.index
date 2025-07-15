@@ -184,6 +184,85 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_n7vyMGGDEfC8HZSMy4-TPA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "__1FGQF5LEfCjUpDgh26nNw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_70orMGFiEfC8HZSMy4-TPA - Address",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_70orMGFiEfC8HZSMy4-TPA - BusinessEntityAddress",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_70orMGFiEfC8HZSMy4-TPA - CountryRegion",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_70orMGFiEfC8HZSMy4-TPA - EmailAddress",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_70orMGFiEfC8HZSMy4-TPA - PersonPhone",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_70orMGFiEfC8HZSMy4-TPA - StateProvince",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AhLS0GFjEfC8HZSMy4-TPA - Employee",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_FZH5MGFjEfC8HZSMy4-TPA - Product",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_FZH5MGFjEfC8HZSMy4-TPA - ProductCategory",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_FZH5MGFjEfC8HZSMy4-TPA - ProductSubcategory",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Reaw8F5LEfCjUpDgh26nNw - CreditCard",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Reaw8F5LEfCjUpDgh26nNw - Customer",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Reaw8F5LEfCjUpDgh26nNw - SalesOrderDetail",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Reaw8F5LEfCjUpDgh26nNw - SalesOrderHeader",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Reaw8F5LEfCjUpDgh26nNw - SalesPerson",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Reaw8F5LEfCjUpDgh26nNw - SalesTerritory",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_nqZIcF6OEfCQJ-fZ9jd9UQ",
     "version" : "0.1",
     "type" : "job"
