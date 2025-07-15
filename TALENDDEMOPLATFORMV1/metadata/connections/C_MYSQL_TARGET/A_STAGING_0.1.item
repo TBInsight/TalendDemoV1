@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_ro_8kF5NEfCjUpDgh26nNw" name="MYSQL3OUTPUT" id="_kFnqsF5NEfCjUpDgh26nNw" label="MYSQL3OUTPUT" dataPackage="_rrUQwF5NEfCjUpDgh26nNw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://sql-demo.insightcloud.net:3306/awoutput?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="sqldemo" Password="enc:system.encryption.key.v1:4bvxFU+2y/bxxeJ/Udh7N32j8KR3eYzk1XLpYL4SJP71KsnJBTjx" ServerName="sql-demo.insightcloud.net" DatasourceName="" FileFieldName="" SID="awoutput" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+  <TalendMetadata:DatabaseConnection xmi:id="_ro_8kF5NEfCjUpDgh26nNw" name="A_STAGING" id="_kFnqsF5NEfCjUpDgh26nNw" label="A_STAGING" dataPackage="_rrUQwF5NEfCjUpDgh26nNw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://sql-demo.insightcloud.net:3306/awoutput?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="sqldemo" Password="enc:system.encryption.key.v1:4bvxFU+2y/bxxeJ/Udh7N32j8KR3eYzk1XLpYL4SJP71KsnJBTjx" ServerName="sql-demo.insightcloud.net" DatasourceName="" FileFieldName="" SID="awoutput" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_ro_8kV5NEfCjUpDgh26nNw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_rpj9QF5NEfCjUpDgh26nNw" tag="package filter" value=""/>
     <taggedValue xmi:id="_rpj9QV5NEfCjUpDgh26nNw" tag="Status" value=""/>
@@ -13,6 +13,7 @@
     <taggedValue xmi:id="_rqo7UV5NEfCjUpDgh26nNw" tag="DB ProductVersion" value="8.0.42"/>
     <taggedValue xmi:id="_rqo7Ul5NEfCjUpDgh26nNw" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_ro_8kl5NEfCjUpDgh26nNw" key="CONN_PARA_KEY_USERNAME" value="sqldemo"/>
+    <parameters xmi:id="_V4pNYGFoEfC8HZSMy4-TPA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_rrUQwF5NEfCjUpDgh26nNw" name="awoutput" dataManager="_ro_8kF5NEfCjUpDgh26nNw">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_iF_egF-8EfCJFqRXR3XpdA" name="countryregioncurrency" id="_iF6mAF-8EfCJFqRXR3XpdA" label="countryregioncurrency" tableType="TABLE">

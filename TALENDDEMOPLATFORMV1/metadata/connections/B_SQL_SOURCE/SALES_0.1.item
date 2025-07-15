@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_fJnVoF5LEfCjUpDgh26nNw" name="SQL1FULL" id="_Reaw8F5LEfCjUpDgh26nNw" label="SQL1FULL" dataPackage="_fOOI0F5LEfCjUpDgh26nNw" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://sql-demo.insightcloud.net:1433;DatabaseName=AdventureWorks2022;" dbVersionString="MSSQL_PROP" Port="1433" Username="sqldemo" Password="enc:system.encryption.key.v1:l967uRA6GzJ+iz4nBbYevO8Aw6egIRQ860l0KRJSC6zfEdZyXGzB" ServerName="sql-demo.insightcloud.net" DatasourceName="" FileFieldName="" SID="AdventureWorks2022" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="Sales" supportNLS="false">
+  <TalendMetadata:DatabaseConnection xmi:id="_kcEpUGFiEfC8HZSMy4-TPA" name="SALES" id="_kbMfkGFiEfC8HZSMy4-TPA" label="SALES" dataPackage="_fOOI0F5LEfCjUpDgh26nNw" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://sql-demo.insightcloud.net:1433;DatabaseName=AdventureWorks2022;" dbVersionString="MSSQL_PROP" Port="1433" Username="sqldemo" Password="enc:system.encryption.key.v1:l967uRA6GzJ+iz4nBbYevO8Aw6egIRQ860l0KRJSC6zfEdZyXGzB" ServerName="sql-demo.insightcloud.net" DatasourceName="" FileFieldName="" SID="AdventureWorks2022" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="Sales" supportNLS="false">
     <taggedValue xmi:id="_fJojwF5LEfCjUpDgh26nNw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_fKzBYF5LEfCjUpDgh26nNw" tag="package filter" value=""/>
     <taggedValue xmi:id="_fLBq4F5LEfCjUpDgh26nNw" tag="Status" value=""/>
@@ -722,7 +722,7 @@
     <parameters xmi:id="_fJojwV5LEfCjUpDgh26nNw" key="CONN_PARA_KEY_USERNAME" value="sqldemo"/>
     <parameters xmi:id="_QSed0GFiEfC8HZSMy4-TPA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_fOOI0F5LEfCjUpDgh26nNw" name="AdventureWorks2022" dataManager="_fJnVoF5LEfCjUpDgh26nNw">
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_fOOI0F5LEfCjUpDgh26nNw" name="AdventureWorks2022" dataManager="_kcEpUGFiEfC8HZSMy4-TPA">
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fOPW8F5LEfCjUpDgh26nNw" name="Sales">
       <ownedElement xsi:type="relational:TdTable" xmi:id="_VPARMF5MEfCjUpDgh26nNw" name="CountryRegionCurrency" id="_VO_DEF5MEfCjUpDgh26nNw" label="CountryRegionCurrency" tableType="TABLE" attachedCDC="true" activatedCDC="true">
         <feature xsi:type="relational:TdColumn" xmi:id="_VPA4QF5MEfCjUpDgh26nNw" name="CountryRegionCode" label="CountryRegionCode" length="3" sourceType="NVARCHAR" talendType="id_String" key="true" nullable="false">
