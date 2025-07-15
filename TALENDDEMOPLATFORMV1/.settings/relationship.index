@@ -13,6 +13,14 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_70orMGFiEfC8HZSMy4-TPA - BusinessEntityAddress",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_CQDlAF56EfCQJ-fZ9jd9UQ - Product",
     "version" : "Latest",
     "type" : "schema"
@@ -21,15 +29,7 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
-    "id" : "_Reaw8F5LEfCjUpDgh26nNw - CurrencyRate",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
     "id" : "_Reaw8F5LEfCjUpDgh26nNw - Customer",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_Reaw8F5LEfCjUpDgh26nNw - PersonCreditCard",
     "version" : "Latest",
     "type" : "schema"
   }, {
@@ -41,47 +41,11 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
-    "id" : "_Reaw8F5LEfCjUpDgh26nNw - SalesOrderHeaderSalesReason",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
     "id" : "_Reaw8F5LEfCjUpDgh26nNw - SalesPerson",
     "version" : "Latest",
     "type" : "schema"
   }, {
-    "id" : "_Reaw8F5LEfCjUpDgh26nNw - SalesPersonQuotaHistory",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_Reaw8F5LEfCjUpDgh26nNw - SalesReason",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_Reaw8F5LEfCjUpDgh26nNw - SalesTaxRate",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
     "id" : "_Reaw8F5LEfCjUpDgh26nNw - SalesTerritory",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_Reaw8F5LEfCjUpDgh26nNw - SalesTerritoryHistory",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_Reaw8F5LEfCjUpDgh26nNw - ShoppingCartItem",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_Reaw8F5LEfCjUpDgh26nNw - SpecialOffer",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_Reaw8F5LEfCjUpDgh26nNw - SpecialOfferProduct",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_Reaw8F5LEfCjUpDgh26nNw - Store",
     "version" : "Latest",
     "type" : "schema"
   } ]

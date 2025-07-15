@@ -44,7 +44,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:ZH6EDH9OXRkIxIX/++8ahYuLeQQDKaCfr6sA5o46" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:RyB8KmlJ1zUkuUhQtkHdnYYdkXQ2SUtOjgPFb+qj" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -79,7 +79,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:KZuP6DX4Xs7J824BfhmjwYV9YMMU61aRij5hNCRw" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:HfFVYSorYh1YFmD04zZAL+KfrmfqyhDbCrzdUJSf" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -572,7 +572,7 @@
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;sql-demo.insightcloud.net&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;dwoutput&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;demo_warehouse&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sqldemo&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rTeWEPbTM2X4f6qj97vcN86a+ohzAxl3bCZ8QGVhPLIA7HlQQaeiYVM="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;FACTSALES&quot;"/>
@@ -1280,7 +1280,7 @@
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;sql-demo.insightcloud.net&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;dwoutput&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;demo_warehouse&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sqldemo&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eTg/5PLNv7eYe8B9TQ8bfc838V4D2bOrw9M1TsyLWzncsh7ZHau9Aoc="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DIMPRODUCT&quot;"/>
@@ -1703,7 +1703,7 @@
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;sql-demo.insightcloud.net&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;dwoutput&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;demo_warehouse&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sqldemo&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:y329hx9OkZ1d7R1t0XDJwy5xeQNxx9L6udgo3qnHMVxjN4P04TERMPE="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DIMCREDCARD&quot;"/>
@@ -1934,7 +1934,7 @@
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;sql-demo.insightcloud.net&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;dwoutput&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;demo_warehouse&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sqldemo&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:clI5fypvHYnYY29yZ7U/a1BMl1tLnRK9lkFh22lOcXFpRipiYlD5nzg="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DIMCUSTOMER&quot;"/>
@@ -2206,7 +2206,7 @@
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;sql-demo.insightcloud.net&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;dwoutput&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;demo_warehouse&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sqldemo&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fyh1TuRphIvIW5n/rQj3Zlc9cHOGyNoErzHHq7YZnSegxfgvqcqiEvo="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DIMCREDCARD&quot;"/>
