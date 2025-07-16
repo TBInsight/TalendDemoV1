@@ -271,9 +271,10 @@
       <column comment="" key="false" length="50" name="EmailAddress" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="true" length="25" name="PhoneNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="25" name="PhoneNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="false" length="15" name="CustomerType" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="15" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -305,8 +306,9 @@
         <mapperTableEntries name="CountryName" expression="CountryRegion.Name " type="id_String" nullable="true"/>
         <mapperTableEntries name="EmailAddress" expression="EmailAddress.EmailAddress " type="id_String" nullable="true"/>
         <mapperTableEntries name="PhoneNumber" expression="PersonPhone.PhoneNumber " type="id_String" nullable="true"/>
+        <mapperTableEntries name="CustomerType" expression="Customer.PersonID != null ? &quot;Individual&quot; : &quot;Store&quot; " type="id_String" nullable="true"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="Customer" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="Customer" minimized="true" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="CustomerID" type="id_Integer"/>
         <mapperTableEntries name="PersonID" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="StoreID" type="id_Integer" nullable="true"/>
@@ -315,7 +317,7 @@
         <mapperTableEntries name="rowguid" type="id_byte[]"/>
         <mapperTableEntries name="ModifiedDate" type="id_Date"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="Person" columnNameFilter="" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="Person" minimized="true" columnNameFilter="" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="BusinessEntityID" expression="Customer.PersonID " type="id_Integer" operator="="/>
         <mapperTableEntries name="PersonType" type="id_String"/>
         <mapperTableEntries name="NameStyle" type="id_String"/>
@@ -1220,6 +1222,11 @@
       <elementValue elementRef="DELETE_KEY" value="false" id="127"/>
       <elementValue elementRef="UPDATABLE" value="true" id="128"/>
       <elementValue elementRef="INSERTABLE" value="true" id="129"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerType" id="130"/>
+      <elementValue elementRef="UPDATE_KEY" value="false" id="131"/>
+      <elementValue elementRef="DELETE_KEY" value="false" id="132"/>
+      <elementValue elementRef="UPDATABLE" value="true" id="133"/>
+      <elementValue elementRef="INSERTABLE" value="true" id="134"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
@@ -1308,6 +1315,7 @@
       <column comment="" key="false" length="25" name="PhoneNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="false" length="15" name="CustomerType" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="15" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
       <column comment="" key="true" length="10" name="CustomerID" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
@@ -1388,6 +1396,7 @@
       <column comment="" key="false" length="25" name="PhoneNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="false" length="15" name="CustomerType" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="15" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -1397,6 +1406,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Customer" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="DimCustomer" lineStyle="0" metaname="DimCustomer" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDBOutput_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="CustomerType" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="DimCustomer" show="false"/>
   </connection>
