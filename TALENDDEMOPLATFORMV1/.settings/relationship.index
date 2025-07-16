@@ -233,6 +233,22 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - product",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - productcategory",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - productsubcategory",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - salesorderdetail",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_kFnqsF5NEfCjUpDgh26nNw - salesorderheader",
     "version" : "Latest",
     "type" : "schema"
