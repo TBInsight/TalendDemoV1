@@ -193,6 +193,10 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "_zZnN0F58EfCQJ-fZ9jd9UQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_kFnqsF5NEfCjUpDgh26nNw - address",
     "version" : "Latest",
     "type" : "schema"
@@ -205,11 +209,19 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - creditcard",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_kFnqsF5NEfCjUpDgh26nNw - customer",
     "version" : "Latest",
     "type" : "schema"
   }, {
     "id" : "_kFnqsF5NEfCjUpDgh26nNw - emailaddress",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - employee",
     "version" : "Latest",
     "type" : "schema"
   }, {
@@ -221,11 +233,19 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - salesorderheader",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_kFnqsF5NEfCjUpDgh26nNw - salesterritory",
     "version" : "Latest",
     "type" : "schema"
   }, {
     "id" : "_kFnqsF5NEfCjUpDgh26nNw - stateprovince",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_zZnN0F58EfCQJ-fZ9jd9UQ - dimcustomer",
     "version" : "Latest",
     "type" : "schema"
   } ]
