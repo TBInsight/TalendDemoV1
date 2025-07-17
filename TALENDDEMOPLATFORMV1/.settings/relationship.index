@@ -126,6 +126,100 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_Oi4dcGLsEfCessLgKZlOSA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_zZnN0F58EfCQJ-fZ9jd9UQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - address",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - businessentityaddress",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - countryregion",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - creditcard",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - customer",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - emailaddress",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - employee",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - person",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - personphone",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - productcategory",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - productsubcategory",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - salesorderdetail",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - salesorderheader",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - salesterritory",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - stateprovince",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_zZnN0F58EfCQJ-fZ9jd9UQ - dimcustomer",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_PEvfQGLqEfCessLgKZlOSA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_kFnqsF5NEfCjUpDgh26nNw - person",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_PYqcsF-8EfCJFqRXR3XpdA",
     "version" : "0.1",
     "type" : "job"
