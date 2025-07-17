@@ -44,7 +44,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:ZH6EDH9OXRkIxIX/++8ahYuLeQQDKaCfr6sA5o46" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:RyB8KmlJ1zUkuUhQtkHdnYYdkXQ2SUtOjgPFb+qj" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -79,7 +79,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:KZuP6DX4Xs7J824BfhmjwYV9YMMU61aRij5hNCRw" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:HfFVYSorYh1YFmD04zZAL+KfrmfqyhDbCrzdUJSf" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -522,8 +522,8 @@
   <note opaque="true" posX="240" posY="40" sizeHeight="80" sizeWidth="1440" text="CDC SOURCE TO TARGET considering DELETES">
     <elementParameter field="TEXT" name="FONT_SIZE" value="26"/>
   </note>
-  <note opaque="true" posX="840" posY="160" sizeHeight="281" sizeWidth="561" text="&quot;Customer Table Example&quot;&#xD;&#xA;&#xD;&#xA;Careful consideration needs to be applied &#xD;&#xA;when dealing with deletes, as it can affect &#xD;&#xA;the net results of a desired output.&#xD;&#xA;&#xD;&#xA;In ideal cases, one may consider using soft &#xD;&#xA;deletes with flags to ensure the warehouse &#xD;&#xA;remains intact, but marts are able to correctly &#xD;&#xA;yield the net output.">
-    <elementParameter field="TEXT" name="FONT_SIZE" value="16"/>
+  <note opaque="false" posX="840" posY="120" sizeHeight="321" sizeWidth="681" text="&quot;Customer Table Example&quot;&#xD;&#xA;&#xD;&#xA;Careful consideration needs to be applied &#xD;&#xA;when dealing with deletes, as it can affect &#xD;&#xA;the net results of a desired output.&#xD;&#xA;&#xD;&#xA;Data Integrity: Ensure deletes don’t break foreign &#xD;&#xA;key relationships or referential integrity. Check for &#xD;&#xA;dependent records in related tables.&#xD;&#xA;&#xD;&#xA;Soft Deletes: Use a flag (e.g., is_deleted) to mark &#xD;&#xA;records as deleted instead of physical deletion to &#xD;&#xA;preserve historical data and avoid cascading issues.">
+    <elementParameter field="TEXT" name="FONT_SIZE" value="12"/>
   </note>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCDC_6" show="false"/>
