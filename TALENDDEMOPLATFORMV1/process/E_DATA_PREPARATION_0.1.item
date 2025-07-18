@@ -1012,7 +1012,7 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="copyOfDIMPRODUCT">
+    <metadata connector="FLOW" name="DIRTYDATA">
       <column comment="" key="false" length="10" name="ProductID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -1062,7 +1062,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="copyOfDIMPRODUCT">
+      <outputTables sizeState="INTERMEDIATE" name="DIRTYDATA">
         <mapperTableEntries name="ProductID" expression="row2.ProductID " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Name" expression="row2.Name " type="id_String" nullable="true"/>
         <mapperTableEntries name="ProductNumber" expression="row2.ProductNumber " type="id_String" nullable="true"/>
@@ -1121,19 +1121,10 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="DataPrepRun" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="720">
+  <node componentName="DataPrepRun" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="600" posY="680">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDataPrepRun_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="Run" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="ZGF0YXByZXAjRGF0YVByZXAjUnVu" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="ZGF0YXByZXAjRGF0YVByZXAjZGF0YXN0b3JlI1ByZXBEYXRhU3RvcmU" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="DataPrep" show="false"/>
-    <elementParameter field="CHECK" name="START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_gkh8sF_FEfCJFqRXR3XpdA"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
@@ -1207,7 +1198,7 @@
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="720">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="880">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_1ENAoGMMEfCessLgKZlOSA" show="false"/>
@@ -1321,7 +1312,7 @@
     <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="C_DATAPREP"/>
+    <elementParameter field="TEXT" name="LABEL" value="OUTPUTDB"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_2">
       <column comment="" key="false" length="10" name="ProductID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true">
@@ -1452,18 +1443,18 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="copyOfDIMPRODUCT" lineStyle="0" metaname="copyOfDIMPRODUCT" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDataPrepRun_1">
+  <connection connectorName="FLOW" label="DIRTYDATA" lineStyle="0" metaname="DIRTYDATA" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDataPrepRun_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="copyOfDIMPRODUCT" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="DIRTYDATA" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tDataPrepRun_1" offsetLabelX="0" offsetLabelY="0" source="tDataPrepRun_1" target="tDBOutput_2">
+  <connection connectorName="FLOW" label="CLEANEDDATA" lineStyle="0" metaname="tDataPrepRun_1" offsetLabelX="0" offsetLabelY="0" source="tDataPrepRun_1" target="tDBOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="CLEANEDDATA" show="false"/>
   </connection>
   <note opaque="true" posX="720" posY="80" sizeHeight="361" sizeWidth="641" text="A normal data workflow preparation is instructed&#xD;&#xA;by the developer and the specification outlined&#xD;&#xA;on the outset of a development">
     <elementParameter field="TEXT" name="FONT_SIZE" value="20"/>
   </note>
-  <note opaque="true" posX="720" posY="560" sizeHeight="361" sizeWidth="641" text="To encourage a data literate and involved workforce, &#xD;&#xA;one needs to involve relevant resources with skills&#xD;&#xA;to help remedy dirty data.. in this example, there is &#xD;&#xA;a user who is in the production department, and&#xD;&#xA;can correctly classify and fill missing data to ensure &#xD;&#xA;our analysis is better. To do this, we grant them access&#xD;&#xA;to a subset of the production data on Talend Cloud Fabric.&#xD;&#xA;&#xD;&#xA;With this dataset, they can create a cleanup recipe that &#xD;&#xA;will easily blend back into our workflow.&#xD;&#xA;">
+  <note opaque="true" posX="720" posY="560" sizeHeight="401" sizeWidth="641" text="To encourage a data literate and involved workforce, &#xD;&#xA;one needs to involve relevant resources with skills&#xD;&#xA;to help remedy dirty data.. in this example, there is &#xD;&#xA;a user who is in the production department, and&#xD;&#xA;can correctly classify and fill missing data to ensure &#xD;&#xA;our analysis is better. To do this, we grant them access&#xD;&#xA;to a subset of the production data on Talend Cloud Fabric.&#xD;&#xA;&#xD;&#xA;With this dataset, they can create a cleanup recipe that &#xD;&#xA;will easily blend back into our workflow.&#xD;&#xA;&#xD;&#xA;Since the component is a translation layer, you can &#xD;&#xA;choose to locate it similarly to how a tmap would be used.">
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
     <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
