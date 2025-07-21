@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_x6KMoGYkEfCG3MoLFNG8Fw" name="VELOVIBE ANALYSIS" creationDate="2025-07-21T13:21:00.264+0200" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_x6KMoGYkEfCG3MoLFNG8Fw" name="VELOVIBE ANALYSIS" supplierDependency="_TfI30GYoEfCG3MoLFNG8Fw" creationDate="2025-07-21T13:21:00.264+0200" defaultContext="Default">
     <clientDependency href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_EJzM5GYlEfCG3MoLFNG8Fw"/>
     <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_Zv2IQGYlEfCG3MoLFNG8Fw"/>
     <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Empty_text_0.1.pattern#_ZwMGgGYlEfCG3MoLFNG8Fw"/>
@@ -1075,4 +1075,7 @@
       </expressions>
     </ranges>
   </dataquality.domain:Domain>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_TfI30GYoEfCG3MoLFNG8Fw" kind="Usage" supplier="_x6KMoGYkEfCG3MoLFNG8Fw">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/VELOVIBE_REPORTPACK_0.1.rep#_Cnu10GYoEfCG3MoLFNG8Fw"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
