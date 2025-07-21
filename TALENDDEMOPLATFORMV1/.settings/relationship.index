@@ -1,5 +1,16 @@
 [ {
   "baseItem" : {
+    "id" : "_70UdwGYmEfCG3MoLFNG8Fw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_sQbK8GMZEfCBGrYzIkmyQA",
+    "version" : "Latest",
+    "type" : "pattern"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_Elq1gF5OEfCjUpDgh26nNw",
     "version" : "0.1",
     "type" : "job"
@@ -472,6 +483,17 @@
     "id" : "_zZnN0F58EfCQJ-fZ9jd9UQ - dimcustomer",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_dgSCEGYnEfCG3MoLFNG8Fw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_sP8CwGMZEfCBGrYzIkmyQA",
+    "version" : "Latest",
+    "type" : "pattern"
   } ]
 }, {
   "baseItem" : {

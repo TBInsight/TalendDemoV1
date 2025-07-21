@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_x6KMoGYkEfCG3MoLFNG8Fw" name="VELOVIBE ANALYSIS" creationDate="2025-07-21T13:21:00.264+0200" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_EJzM5GYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_Zv2IQGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Empty_text_0.1.pattern#_ZwMGgGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Home_Row_Text_0.1.pattern#_Zwb-IGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Linux_Path_Verify_0.1.pattern#_ZwzKgGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/No_special_chart_0.1.pattern#_Zw_-0GYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Random_sequence_of_text_0.1.pattern#_ZxWkIGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_blank_0.1.pattern#_Zxr7UGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_space_0.1.pattern#_ZyDHsGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_ZyP8AGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_Zyd-cGYlEfCG3MoLFNG8Fw"/>
+    <taggedValue xmi:id="_x6KMoWYkEfCG3MoLFNG8Fw" tag="Status" value="development"/>
+    <taggedValue xmi:id="_x6KMomYkEfCG3MoLFNG8Fw" tag="Author" value="tbaijnath@directinsightconsulting_nfr"/>
+    <taggedValue xmi:id="_x6KMo2YkEfCG3MoLFNG8Fw" tag="Purpose" value="VELOVIBE ANALYSIS"/>
+    <taggedValue xmi:id="_x6KMpGYkEfCG3MoLFNG8Fw" tag="Description" value="VELOVIBE ANALYSIS"/>
+    <taggedValue xmi:id="_x6KMpWYkEfCG3MoLFNG8Fw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_EJzM4WYlEfCG3MoLFNG8Fw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_EJzM4mYlEfCG3MoLFNG8Fw" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_EJzM42YlEfCG3MoLFNG8Fw" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_EJzz9WYlEfCG3MoLFNG8Fw" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_x6KMpmYkEfCG3MoLFNG8Fw">
+      <connection href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_wNmPEGYiEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+    </context>
+    <results xmi:id="_x6KMp2YkEfCG3MoLFNG8Fw">
+      <resultMetadata xmi:id="_x6KMqGYkEfCG3MoLFNG8Fw" executionDate="2025-07-21T13:25:33.879+0200" executionDuration="1792" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ZvwBoGYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_ZvwBoWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7g2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_ajkEMGYlEfCG3MoLFNG8Fw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_ajkEMWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_ajkEMmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_ajkEM2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_ZvwBomYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_ZvwBo2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7hmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` WHERE `ProductID` IS NULL " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_ajw4gGYlEfCG3MoLFNG8Fw" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_ajw4gWYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_ajw4gmYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_ajw4g2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_ZvwBpGYlEfCG3MoLFNG8Fw" count="18" computed="true" distinctValueCount="18">
+        <parameters xmi:id="_ZvwBpWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7h2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT `ProductID` FROM `velovibe`.`products` ) A" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_akDzcGYlEfCG3MoLFNG8Fw" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_akDzcWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_akDzcmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_akDzc2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_ZvwBpmYlEfCG3MoLFNG8Fw" count="18" computed="true" uniqueValueCount="18">
+        <parameters xmi:id="_ZvwBp2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7iGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `ProductID`, COUNT(*) mycount FROM `velovibe`.`products`  GROUP BY `ProductID` HAVING mycount = 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_akSc8GYlEfCG3MoLFNG8Fw" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_akSc8WYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_akSc8mYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_akSc82YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_akSc9GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_akSc9WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_akSc9mYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_akSc92YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_akSc-GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_akSc-WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_ZvwBqGYlEfCG3MoLFNG8Fw" count="18" computed="true" duplicateValueCount="0">
+        <parameters xmi:id="_ZvwBqWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7iWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `ProductID`, COUNT(*) mycount FROM `velovibe`.`products`  m  GROUP BY `ProductID` HAVING mycount > 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_aklX4GYlEfCG3MoLFNG8Fw" name="Duplicate Count" label="Duplicate Count">
+          <taggedValue xmi:id="_aklX4WYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
+          <taggedValue xmi:id="_aklX4mYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of duplicated records"/>
+          <sqlGenericExpression xmi:id="_aklX42YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_aklX5GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_aklX5WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_aklX5mYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_aklX52YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_aklX6GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_aklX6WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwBqmYlEfCG3MoLFNG8Fw" name="Blank text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwBq2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwBrGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7imYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductID`,'^[[:blank:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwBrWYlEfCG3MoLFNG8Fw" name="Empty text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwBrmYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwBr2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Empty_text_0.1.pattern#_vZ6_IGk6Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7i2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductID`,'^[[:space:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwBsGYlEfCG3MoLFNG8Fw" name="Home Row Text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwBsWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwosGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Home_Row_Text_0.1.pattern#_e4vUoYyZEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7jGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductID`,'[qsdfghjklmQSDFGHJKLM]{3,}','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwosWYlEfCG3MoLFNG8Fw" name="Linux Path Verify" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwosmYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwos2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Linux_Path_Verify_0.1.pattern#_IqpTEIyfEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjikGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductID`,'^/{1}(((/{1}\.{1})?[a-zA-Z0-9 ]+/?)+(\.{1}[a-zA-Z0-9]{2,4})?)$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwotGYlEfCG3MoLFNG8Fw" name="No special chart" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwotWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwotmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/No_special_chart_0.1.pattern#_6rm3QIycEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjikWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductID`,'^[A-Za-z0-9]{3}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwot2YlEfCG3MoLFNG8Fw" name="Random sequence of text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwouGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwouWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Random_sequence_of_text_0.1.pattern#_gDqDcP9eEd2mwaQf90ozSg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjikmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductID`,'[zrtypqsdfghjklmwxcvbnZRTYPQSDFGHJKLMWXCVBN]{4,}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwoumYlEfCG3MoLFNG8Fw" name="Starts with blank" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwou2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwovGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_blank_0.1.pattern#_18GtIIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjik2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductID`,'^[[:blank:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwovWYlEfCG3MoLFNG8Fw" name="Starts with space" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwovmYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwov2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_space_0.1.pattern#_scYqYIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjilGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductID`,'^[[:space:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwowGYlEfCG3MoLFNG8Fw" name="Starts with uppercase" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwowWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwowmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_53rX8AMvEeKk6OZDw5mXOQ"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjilWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductID`,'^[A-Z]+','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwow2YlEfCG3MoLFNG8Fw" name="Uppercased Single Word" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwoxGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwoxWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_FyTwIHnTEd2weu9skTiCqA"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsYGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjilmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductID`,'^[A-Z]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ZvwoxmYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_Zvwox2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7hGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_ak2doGYlEfCG3MoLFNG8Fw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_ak2doWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_ak3EsGYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_ak3EsWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_ZvwoyGYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_ZvwoyWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjil2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` WHERE `ProductName` IS NULL " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_alGVQGYlEfCG3MoLFNG8Fw" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_alGVQWYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_alGVQmYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_alGVQ2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_ZvwoymYlEfCG3MoLFNG8Fw" count="18" computed="true" distinctValueCount="16">
+        <parameters xmi:id="_Zvwoy2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjimGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT `ProductName` FROM `velovibe`.`products` ) A" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_alaeUGYlEfCG3MoLFNG8Fw" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_alaeUWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_alaeUmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_alaeU2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_ZvwozGYlEfCG3MoLFNG8Fw" count="18" computed="true" uniqueValueCount="14">
+        <parameters xmi:id="_ZvwozWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjimWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `ProductName`, COUNT(*) mycount FROM `velovibe`.`products`  GROUP BY `ProductName` HAVING mycount = 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_alunYGYlEfCG3MoLFNG8Fw" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_alunYWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_alunYmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_alunY2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_alunZGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_alunZWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_alunZmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_alunZ2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_alunaGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_alunaWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_ZvwozmYlEfCG3MoLFNG8Fw" count="18" computed="true" duplicateValueCount="2">
+        <parameters xmi:id="_Zvwoz2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjimmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `ProductName`, COUNT(*) mycount FROM `velovibe`.`products`  m  GROUP BY `ProductName` HAVING mycount > 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_al8p0GYlEfCG3MoLFNG8Fw" name="Duplicate Count" label="Duplicate Count">
+          <taggedValue xmi:id="_al8p0WYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
+          <taggedValue xmi:id="_al8p0mYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of duplicated records"/>
+          <sqlGenericExpression xmi:id="_al8p02YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_al8p1GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_al8p1WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_al8p1mYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_al8p12YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_al8p2GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_al8p2WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_Zvwo0GYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_Zvwo0WYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjim2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(`ProductName`) FROM `velovibe`.`products` WHERE TRIM(`ProductName`) = '' " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_amKFMGYlEfCG3MoLFNG8Fw" name="Blank Count" label="Blank Count">
+          <taggedValue xmi:id="_amKFMWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of blank rows. A blank is a non null textual data that contains only white spaces (or nothing). Note that Oracle does not distinguish between the empty string and the null value"/>
+          <taggedValue xmi:id="_amKFMmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of blank records"/>
+          <sqlGenericExpression xmi:id="_amKFM2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE TRIM(&lt;%=__COLUMN_NAMES__%>) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+          <sqlGenericExpression xmi:id="_amKFNGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE TRIM(&lt;%=__COLUMN_NAMES__%>) IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_amKFNWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+          <sqlGenericExpression xmi:id="_amKFNmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_amKFN2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo0mYlEfCG3MoLFNG8Fw" name="Blank text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwo02YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo1GYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjinGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductName`,'^[[:blank:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo1WYlEfCG3MoLFNG8Fw" name="Empty text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwo1mYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo12YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Empty_text_0.1.pattern#_vZ6_IGk6Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjinWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductName`,'^[[:space:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo2GYlEfCG3MoLFNG8Fw" name="Home Row Text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwo2WYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo2mYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Home_Row_Text_0.1.pattern#_e4vUoYyZEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjinmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductName`,'[qsdfghjklmQSDFGHJKLM]{3,}','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo22YlEfCG3MoLFNG8Fw" name="Linux Path Verify" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwo3GYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo3WYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Linux_Path_Verify_0.1.pattern#_IqpTEIyfEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjin2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductName`,'^/{1}(((/{1}\.{1})?[a-zA-Z0-9 ]+/?)+(\.{1}[a-zA-Z0-9]{2,4})?)$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo3mYlEfCG3MoLFNG8Fw" name="No special chart" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwo32YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo4GYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/No_special_chart_0.1.pattern#_6rm3QIycEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjioGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductName`,'^[A-Za-z0-9]{3}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo4WYlEfCG3MoLFNG8Fw" name="Random sequence of text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwo4mYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo42YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Random_sequence_of_text_0.1.pattern#_gDqDcP9eEd2mwaQf90ozSg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjioWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductName`,'[zrtypqsdfghjklmwxcvbnZRTYPQSDFGHJKLMWXCVBN]{4,}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo5GYlEfCG3MoLFNG8Fw" name="Starts with blank" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwo5WYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo5mYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_blank_0.1.pattern#_18GtIIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjiomYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductName`,'^[[:blank:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo52YlEfCG3MoLFNG8Fw" name="Starts with space" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwo6GYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo6WYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_space_0.1.pattern#_scYqYIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjio2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductName`,'^[[:space:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo6mYlEfCG3MoLFNG8Fw" name="Starts with uppercase" count="18" computed="true" matchingValueCount="17" notMatchingValueCount="1">
+        <parameters xmi:id="_Zvwo62YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo7GYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_53rX8AMvEeKk6OZDw5mXOQ"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arjipGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductName`,'^[A-Z]+','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo7WYlEfCG3MoLFNG8Fw" name="Uppercased Single Word" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwo7mYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo72YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_FyTwIHnTEd2weu9skTiCqA"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsZGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJoGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`ProductName`,'^[A-Z]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_Zvwo8GYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_Zvwo8WYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7gGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_amZ80GYlEfCG3MoLFNG8Fw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_amZ80WYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_amZ80mYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_amZ802YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_Zvwo8mYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_Zvwo82YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJoWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` WHERE `SupplierID` IS NULL " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_ammxIGYlEfCG3MoLFNG8Fw" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_ammxIWYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_ammxImYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_ammxI2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_Zvwo9GYlEfCG3MoLFNG8Fw" count="18" computed="true" distinctValueCount="5">
+        <parameters xmi:id="_Zvwo9WYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJomYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT `SupplierID` FROM `velovibe`.`products` ) A" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_am0MgGYlEfCG3MoLFNG8Fw" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_am0MgWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_am0MgmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_am0Mg2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_Zvwo9mYlEfCG3MoLFNG8Fw" count="18" computed="true" uniqueValueCount="1">
+        <parameters xmi:id="_Zvwo92YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJo2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `SupplierID`, COUNT(*) mycount FROM `velovibe`.`products`  GROUP BY `SupplierID` HAVING mycount = 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_anCO8GYlEfCG3MoLFNG8Fw" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_anCO8WYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_anCO8mYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_anCO82YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_anCO9GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_anCO9WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_anCO9mYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_anCO92YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_anCO-GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_anCO-WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_Zvwo-GYlEfCG3MoLFNG8Fw" count="18" computed="true" duplicateValueCount="4">
+        <parameters xmi:id="_Zvwo-WYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJpGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `SupplierID`, COUNT(*) mycount FROM `velovibe`.`products`  m  GROUP BY `SupplierID` HAVING mycount > 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_anSGkGYlEfCG3MoLFNG8Fw" name="Duplicate Count" label="Duplicate Count">
+          <taggedValue xmi:id="_anSGkWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
+          <taggedValue xmi:id="_anSGkmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of duplicated records"/>
+          <sqlGenericExpression xmi:id="_anSGk2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_anSGlGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_anSGlWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_anSGlmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_anSGl2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_anSGmGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_anSGmWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo-mYlEfCG3MoLFNG8Fw" name="Blank text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwo-2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo_GYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJpWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`SupplierID`,'^[[:blank:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwo_WYlEfCG3MoLFNG8Fw" name="Empty text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwo_mYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwo_2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Empty_text_0.1.pattern#_vZ6_IGk6Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJpmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`SupplierID`,'^[[:space:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpAGYlEfCG3MoLFNG8Fw" name="Home Row Text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpAWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpAmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Home_Row_Text_0.1.pattern#_e4vUoYyZEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJp2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`SupplierID`,'[qsdfghjklmQSDFGHJKLM]{3,}','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpA2YlEfCG3MoLFNG8Fw" name="Linux Path Verify" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpBGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpBWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Linux_Path_Verify_0.1.pattern#_IqpTEIyfEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJqGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`SupplierID`,'^/{1}(((/{1}\.{1})?[a-zA-Z0-9 ]+/?)+(\.{1}[a-zA-Z0-9]{2,4})?)$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpBmYlEfCG3MoLFNG8Fw" name="No special chart" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpB2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpCGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/No_special_chart_0.1.pattern#_6rm3QIycEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJqWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`SupplierID`,'^[A-Za-z0-9]{3}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpCWYlEfCG3MoLFNG8Fw" name="Random sequence of text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpCmYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpC2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Random_sequence_of_text_0.1.pattern#_gDqDcP9eEd2mwaQf90ozSg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJqmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`SupplierID`,'[zrtypqsdfghjklmwxcvbnZRTYPQSDFGHJKLMWXCVBN]{4,}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpDGYlEfCG3MoLFNG8Fw" name="Starts with blank" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpDWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpDmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_blank_0.1.pattern#_18GtIIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJq2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`SupplierID`,'^[[:blank:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpD2YlEfCG3MoLFNG8Fw" name="Starts with space" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpEGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpEWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_space_0.1.pattern#_scYqYIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJrGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`SupplierID`,'^[[:space:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpEmYlEfCG3MoLFNG8Fw" name="Starts with uppercase" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpE2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpFGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_53rX8AMvEeKk6OZDw5mXOQ"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJrWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`SupplierID`,'^[A-Z]+','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpFWYlEfCG3MoLFNG8Fw" name="Uppercased Single Word" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpFmYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpF2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_FyTwIHnTEd2weu9skTiCqA"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsaGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJrmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`SupplierID`,'^[A-Z]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ZvwpGGYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_ZvwpGWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7hWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_anndwGYlEfCG3MoLFNG8Fw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_anndwWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_anndwmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_anndw2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_ZvwpGmYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_ZvwpG2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJr2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` WHERE `CategoryID` IS NULL " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_an6_wGYlEfCG3MoLFNG8Fw" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_an6_wWYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_an6_wmYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_an6_w2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_ZvwpHGYlEfCG3MoLFNG8Fw" count="18" computed="true" distinctValueCount="2">
+        <parameters xmi:id="_ZvwpHWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJsGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT `CategoryID` FROM `velovibe`.`products` ) A" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_aoQW8GYlEfCG3MoLFNG8Fw" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_aoQW8WYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_aoQW8mYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_aoQW82YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_ZvwpHmYlEfCG3MoLFNG8Fw" count="18" computed="true" uniqueValueCount="0">
+        <parameters xmi:id="_ZvwpH2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJsWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `CategoryID`, COUNT(*) mycount FROM `velovibe`.`products`  GROUP BY `CategoryID` HAVING mycount = 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_aolHEGYlEfCG3MoLFNG8Fw" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_aolHEWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_aolHEmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_aolHE2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_aolHFGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_aolHFWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_aolHFmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_aolHF2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_aolHGGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_aolHGWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_ZvwpIGYlEfCG3MoLFNG8Fw" count="18" computed="true" duplicateValueCount="2">
+        <parameters xmi:id="_ZvwpIWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJsmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `CategoryID`, COUNT(*) mycount FROM `velovibe`.`products`  m  GROUP BY `CategoryID` HAVING mycount > 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_ao1lwGYlEfCG3MoLFNG8Fw" name="Duplicate Count" label="Duplicate Count">
+          <taggedValue xmi:id="_ao1lwWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
+          <taggedValue xmi:id="_ao1lwmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of duplicated records"/>
+          <sqlGenericExpression xmi:id="_ao1lw2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_ao1lxGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_ao1lxWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_ao1lxmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_ao1lx2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_ao1lyGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_ao1lyWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpImYlEfCG3MoLFNG8Fw" name="Blank text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpI2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpJGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJs2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CategoryID`,'^[[:blank:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpJWYlEfCG3MoLFNG8Fw" name="Empty text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpJmYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpJ2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Empty_text_0.1.pattern#_vZ6_IGk6Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJtGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CategoryID`,'^[[:space:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpKGYlEfCG3MoLFNG8Fw" name="Home Row Text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpKWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpKmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Home_Row_Text_0.1.pattern#_e4vUoYyZEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJtWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CategoryID`,'[qsdfghjklmQSDFGHJKLM]{3,}','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpK2YlEfCG3MoLFNG8Fw" name="Linux Path Verify" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpLGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpLWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Linux_Path_Verify_0.1.pattern#_IqpTEIyfEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJtmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CategoryID`,'^/{1}(((/{1}\.{1})?[a-zA-Z0-9 ]+/?)+(\.{1}[a-zA-Z0-9]{2,4})?)$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpLmYlEfCG3MoLFNG8Fw" name="No special chart" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpL2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpMGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/No_special_chart_0.1.pattern#_6rm3QIycEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJt2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CategoryID`,'^[A-Za-z0-9]{3}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpMWYlEfCG3MoLFNG8Fw" name="Random sequence of text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpMmYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpM2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Random_sequence_of_text_0.1.pattern#_gDqDcP9eEd2mwaQf90ozSg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkJuGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CategoryID`,'[zrtypqsdfghjklmwxcvbnZRTYPQSDFGHJKLMWXCVBN]{4,}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpNGYlEfCG3MoLFNG8Fw" name="Starts with blank" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpNWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpNmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_blank_0.1.pattern#_18GtIIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwsGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CategoryID`,'^[[:blank:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpN2YlEfCG3MoLFNG8Fw" name="Starts with space" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpOGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpOWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_space_0.1.pattern#_scYqYIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwsWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CategoryID`,'^[[:space:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpOmYlEfCG3MoLFNG8Fw" name="Starts with uppercase" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpO2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpPGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_53rX8AMvEeKk6OZDw5mXOQ"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwsmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CategoryID`,'^[A-Z]+','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpPWYlEfCG3MoLFNG8Fw" name="Uppercased Single Word" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpPmYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpP2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_FyTwIHnTEd2weu9skTiCqA"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsbGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkws2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`CategoryID`,'^[A-Z]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ZvwpQGYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_ZvwpQWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7gmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_apE2UGYlEfCG3MoLFNG8Fw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_apE2UWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_apE2UmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_apE2U2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_ZvwpQmYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_ZvwpQ2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwtGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` WHERE `Unit` IS NULL " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_apTf0GYlEfCG3MoLFNG8Fw" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_apTf0WYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_apTf0mYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_apTf02YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_ZvwpRGYlEfCG3MoLFNG8Fw" count="18" computed="true" distinctValueCount="3">
+        <parameters xmi:id="_ZvwpRWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwtWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT `Unit` FROM `velovibe`.`products` ) A" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_apiwYGYlEfCG3MoLFNG8Fw" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_apiwYWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_apiwYmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_apiwY2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_ZvwpRmYlEfCG3MoLFNG8Fw" count="18" computed="true" uniqueValueCount="2">
+        <parameters xmi:id="_ZvwpR2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwtmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `Unit`, COUNT(*) mycount FROM `velovibe`.`products`  GROUP BY `Unit` HAVING mycount = 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_apxZ4GYlEfCG3MoLFNG8Fw" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_apxZ4WYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_apxZ4mYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_apxZ42YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_apxZ5GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_apxZ5WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_apxZ5mYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_apxZ52YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_apxZ6GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_apxZ6WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_ZvwpSGYlEfCG3MoLFNG8Fw" count="18" computed="true" duplicateValueCount="1">
+        <parameters xmi:id="_ZvwpSWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwt2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `Unit`, COUNT(*) mycount FROM `velovibe`.`products`  m  GROUP BY `Unit` HAVING mycount > 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_aqADYGYlEfCG3MoLFNG8Fw" name="Duplicate Count" label="Duplicate Count">
+          <taggedValue xmi:id="_aqADYWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
+          <taggedValue xmi:id="_aqADYmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of duplicated records"/>
+          <sqlGenericExpression xmi:id="_aqADY2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_aqADZGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_aqADZWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_aqADZmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_aqADZ2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_aqADaGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_aqADaWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_ZvwpSmYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_ZvwpS2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwuGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(`Unit`) FROM `velovibe`.`products` WHERE TRIM(`Unit`) = '' " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_aqNewGYlEfCG3MoLFNG8Fw" name="Blank Count" label="Blank Count">
+          <taggedValue xmi:id="_aqNewWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of blank rows. A blank is a non null textual data that contains only white spaces (or nothing). Note that Oracle does not distinguish between the empty string and the null value"/>
+          <taggedValue xmi:id="_aqNewmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of blank records"/>
+          <sqlGenericExpression xmi:id="_aqNew2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE TRIM(&lt;%=__COLUMN_NAMES__%>) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+          <sqlGenericExpression xmi:id="_aqNexGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE TRIM(&lt;%=__COLUMN_NAMES__%>) IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_aqNexWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+          <sqlGenericExpression xmi:id="_aqNexmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_aqNex2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpTGYlEfCG3MoLFNG8Fw" name="Blank text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpTWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpTmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwuWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Unit`,'^[[:blank:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpT2YlEfCG3MoLFNG8Fw" name="Empty text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpUGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpUWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Empty_text_0.1.pattern#_vZ6_IGk6Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwumYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Unit`,'^[[:space:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpUmYlEfCG3MoLFNG8Fw" name="Home Row Text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpU2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpVGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Home_Row_Text_0.1.pattern#_e4vUoYyZEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwu2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Unit`,'[qsdfghjklmQSDFGHJKLM]{3,}','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpVWYlEfCG3MoLFNG8Fw" name="Linux Path Verify" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpVmYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpV2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Linux_Path_Verify_0.1.pattern#_IqpTEIyfEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwvGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Unit`,'^/{1}(((/{1}\.{1})?[a-zA-Z0-9 ]+/?)+(\.{1}[a-zA-Z0-9]{2,4})?)$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpWGYlEfCG3MoLFNG8Fw" name="No special chart" count="18" computed="true" matchingValueCount="1" notMatchingValueCount="17">
+        <parameters xmi:id="_ZvwpWWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpWmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/No_special_chart_0.1.pattern#_6rm3QIycEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arkwvWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Unit`,'^[A-Za-z0-9]{3}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpW2YlEfCG3MoLFNG8Fw" name="Random sequence of text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpXGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpXWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Random_sequence_of_text_0.1.pattern#_gDqDcP9eEd2mwaQf90ozSg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXwGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Unit`,'[zrtypqsdfghjklmwxcvbnZRTYPQSDFGHJKLMWXCVBN]{4,}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpXmYlEfCG3MoLFNG8Fw" name="Starts with blank" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpX2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpYGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_blank_0.1.pattern#_18GtIIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXwWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Unit`,'^[[:blank:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpYWYlEfCG3MoLFNG8Fw" name="Starts with space" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpYmYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpY2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_space_0.1.pattern#_scYqYIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXwmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Unit`,'^[[:space:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpZGYlEfCG3MoLFNG8Fw" name="Starts with uppercase" count="18" computed="true" matchingValueCount="16" notMatchingValueCount="2">
+        <parameters xmi:id="_ZvwpZWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpZmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_53rX8AMvEeKk6OZDw5mXOQ"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXw2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Unit`,'^[A-Z]+','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpZ2YlEfCG3MoLFNG8Fw" name="Uppercased Single Word" count="18" computed="true" matchingValueCount="1" notMatchingValueCount="17">
+        <parameters xmi:id="_ZvwpaGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpaWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_FyTwIHnTEd2weu9skTiCqA"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEscGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXxGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Unit`,'^[A-Z]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ZvwpamYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_Zvwpa2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_ari7gWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_aqaTEGYlEfCG3MoLFNG8Fw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_aqaTEWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_aqaTEmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_aqaTE2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_ZvwpbGYlEfCG3MoLFNG8Fw" count="18" computed="true">
+        <parameters xmi:id="_ZvwpbWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXxWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM `velovibe`.`products` WHERE `Price` IS NULL " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_aqnucGYlEfCG3MoLFNG8Fw" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_aqnucWYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_aqnucmYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_aqnuc2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_ZvwpbmYlEfCG3MoLFNG8Fw" count="18" computed="true" distinctValueCount="12">
+        <parameters xmi:id="_Zvwpb2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXxmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT `Price` FROM `velovibe`.`products` ) A" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_aq1w4GYlEfCG3MoLFNG8Fw" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_aq1w4WYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_aq1w4mYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_aq1w42YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_ZvwpcGYlEfCG3MoLFNG8Fw" count="18" computed="true" uniqueValueCount="8">
+        <parameters xmi:id="_ZvwpcWYlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXx2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `Price`, COUNT(*) mycount FROM `velovibe`.`products`  GROUP BY `Price` HAVING mycount = 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_arFBcGYlEfCG3MoLFNG8Fw" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_arFBcWYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_arFBcmYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_arFBc2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_arFBdGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_arFBdWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_arFBdmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_arFBd2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_arFBeGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_arFBeWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_ZvwpcmYlEfCG3MoLFNG8Fw" count="18" computed="true" duplicateValueCount="4">
+        <parameters xmi:id="_Zvwpc2YlEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXyGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT `Price`, COUNT(*) mycount FROM `velovibe`.`products`  m  GROUP BY `Price` HAVING mycount > 1) AS myquery" language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_arTq8GYlEfCG3MoLFNG8Fw" name="Duplicate Count" label="Duplicate Count">
+          <taggedValue xmi:id="_arTq8WYlEfCG3MoLFNG8Fw" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
+          <taggedValue xmi:id="_arTq8mYlEfCG3MoLFNG8Fw" tag="Purpose" value="evaluates the number of duplicated records"/>
+          <sqlGenericExpression xmi:id="_arTq82YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_arTq9GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_arTq9WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_arTq9mYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_arTq92YlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_arTq-GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_arTq-WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpdGYlEfCG3MoLFNG8Fw" name="Blank text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpdWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpdmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXyWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Price`,'^[[:blank:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwpd2YlEfCG3MoLFNG8Fw" name="Empty text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpeGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpeWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Empty_text_0.1.pattern#_vZ6_IGk6Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXymYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Price`,'^[[:space:]]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpemYlEfCG3MoLFNG8Fw" name="Home Row Text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwpe2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpfGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Home_Row_Text_0.1.pattern#_e4vUoYyZEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXy2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Price`,'[qsdfghjklmQSDFGHJKLM]{3,}','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpfWYlEfCG3MoLFNG8Fw" name="Linux Path Verify" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpfmYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwpf2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Linux_Path_Verify_0.1.pattern#_IqpTEIyfEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXzGYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Price`,'^/{1}(((/{1}\.{1})?[a-zA-Z0-9 ]+/?)+(\.{1}[a-zA-Z0-9]{2,4})?)$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpgGYlEfCG3MoLFNG8Fw" name="No special chart" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpgWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpgmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/No_special_chart_0.1.pattern#_6rm3QIycEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXzWYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Price`,'^[A-Za-z0-9]{3}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwpg2YlEfCG3MoLFNG8Fw" name="Random sequence of text" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwphGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwphWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Random_sequence_of_text_0.1.pattern#_gDqDcP9eEd2mwaQf90ozSg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXzmYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Price`,'[zrtypqsdfghjklmwxcvbnZRTYPQSDFGHJKLMWXCVBN]{4,}$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwphmYlEfCG3MoLFNG8Fw" name="Starts with blank" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_Zvwph2YlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpiGYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_blank_0.1.pattern#_18GtIIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlXz2YlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Price`,'^[[:blank:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpiWYlEfCG3MoLFNG8Fw" name="Starts with space" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpimYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_Zvwpi2YlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_space_0.1.pattern#_scYqYIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlX0GYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Price`,'^[[:space:]]','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ZvwpjGYlEfCG3MoLFNG8Fw" name="Starts with uppercase" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpjWYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpjmYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_53rX8AMvEeKk6OZDw5mXOQ"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlX0WYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Price`,'^[A-Z]+','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_Zvwpj2YlEfCG3MoLFNG8Fw" name="Uppercased Single Word" count="18" computed="true" notMatchingValueCount="18">
+        <parameters xmi:id="_ZvwpkGYlEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_ZvwpkWYlEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_FyTwIHnTEd2weu9skTiCqA"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_BKEsdGYlEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_arlX0mYlEfCG3MoLFNG8Fw" body="SELECT COUNT(CASE WHEN REGEXP_LIKE(`Price`,'^[A-Z]*$','c') THEN 1 END), COUNT(*) FROM `velovibe`.`products` " language="MySQL"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_x6KMqWYkEfCG3MoLFNG8Fw" dataFilter="_EJzz9mYlEfCG3MoLFNG8Fw" analysisType="Multiple Column Analysis"/>
+    <contextType xmi:id="_EJzM4GYlEfCG3MoLFNG8Fw" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_EJzz9mYlEfCG3MoLFNG8Fw" name="VELOVIBE ANALYSIS">
+    <ranges xmi:id="_EJzz92YlEfCG3MoLFNG8Fw">
+      <expressions xmi:id="_EJzz-GYlEfCG3MoLFNG8Fw">
+        <expression xsi:type="relational:TdExpression" xmi:id="_EJzz-WYlEfCG3MoLFNG8Fw" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
