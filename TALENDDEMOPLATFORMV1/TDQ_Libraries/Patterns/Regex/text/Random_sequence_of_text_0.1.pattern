@@ -11,6 +11,6 @@
     </components>
   </dataquality.domain.pattern:Pattern>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_ZxWkIGYlEfCG3MoLFNG8Fw" kind="Usage" supplier="_gDqDcP9eEd2mwaQf90ozSg">
-    <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/VELOVIBE_ANALYSIS_0.1.ana#_x6KMoGYkEfCG3MoLFNG8Fw"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/PRODUCT_ANALYSIS_0.1.ana#_x6KMoGYkEfCG3MoLFNG8Fw"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>

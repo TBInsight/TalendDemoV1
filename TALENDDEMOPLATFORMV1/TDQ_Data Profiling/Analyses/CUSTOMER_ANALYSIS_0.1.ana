@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_RKdbQWYvEfCG3MoLFNG8Fw" name="CUSTOMER ANALYSIS" supplierDependency="_WoUOQGYzEfCG3MoLFNG8Fw" creationDate="2025-07-21T14:36:04.979+0200" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_EJzM5GYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_Zv2IQGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Empty_text_0.1.pattern#_ZwMGgGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_blank_0.1.pattern#_Zxr7UGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_space_0.1.pattern#_ZyDHsGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_ZyP8AGYlEfCG3MoLFNG8Fw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_Zyd-cGYlEfCG3MoLFNG8Fw"/>
+    <taggedValue xmi:id="_RKdbQmYvEfCG3MoLFNG8Fw" tag="Status" value="development"/>
+    <taggedValue xmi:id="_RKdbQ2YvEfCG3MoLFNG8Fw" tag="Author" value="tbaijnath@directinsightconsulting_nfr"/>
+    <taggedValue xmi:id="_RKdbRGYvEfCG3MoLFNG8Fw" tag="Purpose" value="CUSTOMER ANALYSIS"/>
+    <taggedValue xmi:id="_RKdbRWYvEfCG3MoLFNG8Fw" tag="Description" value="CUSTOMER ANALYSIS"/>
+    <taggedValue xmi:id="_RKdbRmYvEfCG3MoLFNG8Fw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_U-S8cWYzEfCG3MoLFNG8Fw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_U-TjgGYzEfCG3MoLFNG8Fw" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_U-TjgWYzEfCG3MoLFNG8Fw" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_U-UxoGYzEfCG3MoLFNG8Fw" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_RKdbR2YvEfCG3MoLFNG8Fw">
+      <connection href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_wNmPEGYiEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpkGYuEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpnGYuEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpoGYuEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVppGYuEfCG3MoLFNG8Fw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpqGYuEfCG3MoLFNG8Fw"/>
+    </context>
+    <results xmi:id="_RKdbSGYvEfCG3MoLFNG8Fw">
+      <resultMetadata xmi:id="_RKdbSWYvEfCG3MoLFNG8Fw"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_U-TjgmYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-Tjg2YzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpkGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_U-TjhGYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-TjhWYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpkGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_U-TjhmYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-Tjh2YzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpkGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_U-TjiGYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-TjiWYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpkGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_U-TjimYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-Tji2YzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpkGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_U-TjjGYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-TjjWYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_U-TjjmYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-Tjj2YzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_U-TjkGYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-TjkWYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_U-TjkmYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-Tjk2YzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_U-TjlGYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-TjlWYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_U-TjlmYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-Tjl2YzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MinLengthIndicator" xmi:id="_U-TjmGYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-TjmWYzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-TjmmYzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MaxLengthIndicator" xmi:id="_U-UKkGYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKkWYzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-UKkmYzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:SoundexFreqIndicator" xmi:id="_U-UKk2YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKlGYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Soundex/Soundex_Frequency_Table_0.1.definition#_VGep4Pa7Ed24-N3PsP_o-w"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKlWYzEfCG3MoLFNG8Fw" name="Blank text">
+        <parameters xmi:id="_U-UKlmYzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKl2YzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKmGYzEfCG3MoLFNG8Fw" name="Empty text">
+        <parameters xmi:id="_U-UKmWYzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKmmYzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Empty_text_0.1.pattern#_vZ6_IGk6Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKm2YzEfCG3MoLFNG8Fw" name="Starts with blank">
+        <parameters xmi:id="_U-UKnGYzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKnWYzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_blank_0.1.pattern#_18GtIIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKnmYzEfCG3MoLFNG8Fw" name="Starts with space">
+        <parameters xmi:id="_U-UKn2YzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKoGYzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_space_0.1.pattern#_scYqYIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKoWYzEfCG3MoLFNG8Fw" name="Starts with uppercase">
+        <parameters xmi:id="_U-UKomYzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKo2YzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_53rX8AMvEeKk6OZDw5mXOQ"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKpGYzEfCG3MoLFNG8Fw" name="Uppercased Single Word">
+        <parameters xmi:id="_U-UKpWYzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKpmYzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_FyTwIHnTEd2weu9skTiCqA"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVplGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_U-UKp2YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKqGYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_U-UKqWYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKqmYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_U-UKq2YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKrGYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_U-UKrWYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKrmYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_U-UKr2YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKsGYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_U-UKsWYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKsmYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MinLengthIndicator" xmi:id="_U-UKs2YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKtGYzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-UKtWYzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MaxLengthIndicator" xmi:id="_U-UKtmYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKt2YzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-UKuGYzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:SoundexFreqIndicator" xmi:id="_U-UKuWYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKumYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Soundex/Soundex_Frequency_Table_0.1.definition#_VGep4Pa7Ed24-N3PsP_o-w"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKu2YzEfCG3MoLFNG8Fw" name="Starts with uppercase">
+        <parameters xmi:id="_U-UKvGYzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKvWYzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_53rX8AMvEeKk6OZDw5mXOQ"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKvmYzEfCG3MoLFNG8Fw" name="Starts with space">
+        <parameters xmi:id="_U-UKv2YzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKwGYzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_space_0.1.pattern#_scYqYIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKwWYzEfCG3MoLFNG8Fw" name="Starts with blank">
+        <parameters xmi:id="_U-UKwmYzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKw2YzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_blank_0.1.pattern#_18GtIIyaEd6Dle_8xC0lwg"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKxGYzEfCG3MoLFNG8Fw" name="Uppercased Single Word">
+        <parameters xmi:id="_U-UKxWYzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKxmYzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_FyTwIHnTEd2weu9skTiCqA"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKx2YzEfCG3MoLFNG8Fw" name="Empty text">
+        <parameters xmi:id="_U-UKyGYzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKyWYzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Empty_text_0.1.pattern#_vZ6_IGk6Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_U-UKymYzEfCG3MoLFNG8Fw" name="Blank text">
+        <parameters xmi:id="_U-UKy2YzEfCG3MoLFNG8Fw">
+          <dataValidDomain xmi:id="_U-UKzGYzEfCG3MoLFNG8Fw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpmGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_U-UKzWYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UKzmYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpnGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_U-UKz2YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK0GYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpnGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_U-UK0WYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK0mYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpnGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_U-UK02YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK1GYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpnGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_U-UK1WYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK1mYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpnGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_U-UK12YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK2GYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpnGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MinLengthIndicator" xmi:id="_U-UK2WYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK2mYzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-UK22YzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpnGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MaxLengthIndicator" xmi:id="_U-UK3GYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK3WYzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-UK3mYzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpnGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:SoundexFreqIndicator" xmi:id="_U-UK32YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK4GYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpnGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Soundex/Soundex_Frequency_Table_0.1.definition#_VGep4Pa7Ed24-N3PsP_o-w"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_U-UK4WYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK4mYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpoGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_U-UK42YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK5GYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpoGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_U-UK5WYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK5mYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpoGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_U-UK52YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK6GYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpoGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_U-UK6WYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK6mYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpoGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_U-UK62YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK7GYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpoGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MinLengthIndicator" xmi:id="_U-UK7WYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK7mYzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-UK72YzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpoGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MaxLengthIndicator" xmi:id="_U-UK8GYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK8WYzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-UK8mYzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpoGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_U-UK82YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK9GYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVppGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_U-UK9WYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK9mYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVppGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_U-UK92YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK-GYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVppGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_U-UK-WYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK-mYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVppGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_U-UK-2YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK_GYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVppGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_U-UK_WYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-UK_mYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVppGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MinLengthIndicator" xmi:id="_U-UK_2YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-ULAGYzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-ULAWYzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVppGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MaxLengthIndicator" xmi:id="_U-ULAmYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-ULA2YzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-ULBGYzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVppGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_U-ULBWYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-ULBmYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpqGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_U-ULB2YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-ULCGYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpqGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_U-ULCWYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-ULCmYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpqGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_U-ULC2YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-ULDGYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpqGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_U-ULDWYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-ULDmYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpqGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_U-ULD2YzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-ULEGYzEfCG3MoLFNG8Fw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpqGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MinLengthIndicator" xmi:id="_U-ULEWYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-ULEmYzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-ULE2YzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpqGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MaxLengthIndicator" xmi:id="_U-ULFGYzEfCG3MoLFNG8Fw">
+        <parameters xmi:id="_U-ULFWYzEfCG3MoLFNG8Fw">
+          <textParameter xmi:id="_U-ULFmYzEfCG3MoLFNG8Fw" useBlank="false"/>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/D_VELOVIBES/A_VELOVIBESOURCE_0.1.item#_0xVpqGYuEfCG3MoLFNG8Fw"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_RKdbSmYvEfCG3MoLFNG8Fw" dataFilter="_VCEpMGYzEfCG3MoLFNG8Fw" analysisType="Multiple Column Analysis"/>
+    <contextType xmi:id="_U-S8cGYzEfCG3MoLFNG8Fw" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_VCEpMGYzEfCG3MoLFNG8Fw" name="CUSTOMER ANALYSIS">
+    <ranges xmi:id="_VCEpMWYzEfCG3MoLFNG8Fw">
+      <expressions xmi:id="_VCEpMmYzEfCG3MoLFNG8Fw">
+        <expression xsi:type="relational:TdExpression" xmi:id="_VCEpM2YzEfCG3MoLFNG8Fw" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_WoUOQGYzEfCG3MoLFNG8Fw" kind="Usage" supplier="_RKdbQWYvEfCG3MoLFNG8Fw">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/VELOVIBE_REPORTPACK_0.1.rep#_Cnu10GYoEfCG3MoLFNG8Fw"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>
