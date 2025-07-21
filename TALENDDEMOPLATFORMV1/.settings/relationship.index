@@ -173,11 +173,19 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_kFnqsF5NEfCjUpDgh26nNw",
+    "id" : "_0mRVIGZGEfCG3MoLFNG8Fw",
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_kFnqsF5NEfCjUpDgh26nNw - person",
+    "id" : "_wMwhkGYiEfCG3MoLFNG8Fw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_wMwhkGYiEfCG3MoLFNG8Fw - customers",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_wMwhkGYiEfCG3MoLFNG8Fw - customerscompany2",
     "version" : "Latest",
     "type" : "schema"
   } ]
