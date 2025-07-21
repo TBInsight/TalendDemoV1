@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_ww39QGYMEfCG3MoLFNG8Fw" name="NEWREPORT" creationDate="2025-07-21T10:29:04.650+0200" defaultContext="Default">
+  <clientDependency href="../Analyses/NEWAnalysis_0.1.ana#_EfHpgGYNEfCG3MoLFNG8Fw"/>
+  <taggedValue xmi:id="_ww39QWYMEfCG3MoLFNG8Fw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_ww39QmYMEfCG3MoLFNG8Fw" tag="Author" value="tbaijnath@directinsightconsulting_nfr"/>
+  <taggedValue xmi:id="_ww39Q2YMEfCG3MoLFNG8Fw" tag="Purpose" value="NEWREPORT"/>
+  <taggedValue xmi:id="_ww39RGYMEfCG3MoLFNG8Fw" tag="Description" value="NEWREPORT"/>
+  <taggedValue xmi:id="_ww39RWYMEfCG3MoLFNG8Fw" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_ww39RmYMEfCG3MoLFNG8Fw" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_ww39R2YMEfCG3MoLFNG8Fw" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_ww39SGYMEfCG3MoLFNG8Fw" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_ww39SWYMEfCG3MoLFNG8Fw" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_ww39SmYMEfCG3MoLFNG8Fw" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_ww39S2YMEfCG3MoLFNG8Fw" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_ww39TGYMEfCG3MoLFNG8Fw" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_ww39TWYMEfCG3MoLFNG8Fw" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_ww39TmYMEfCG3MoLFNG8Fw" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_ww39T2YMEfCG3MoLFNG8Fw" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:CeKHqVU/Dn7SKEOhROPjUacAmt7TvKIfccG/zg=="/>
+  <taggedValue xmi:id="_ww39UGYMEfCG3MoLFNG8Fw" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_ww39UWYMEfCG3MoLFNG8Fw" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\Program Files (x86)\Talend-Studio\studio\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_ww39UmYMEfCG3MoLFNG8Fw" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_ww39U2YMEfCG3MoLFNG8Fw" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_ww39VGYMEfCG3MoLFNG8Fw" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_EfEmMGYNEfCG3MoLFNG8Fw" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_EfEmMWYNEfCG3MoLFNG8Fw" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_EfEmMmYNEfCG3MoLFNG8Fw" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_EfEmM2YNEfCG3MoLFNG8Fw" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_EfFNQWYNEfCG3MoLFNG8Fw" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_EfF0UGYNEfCG3MoLFNG8Fw" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/NEWAnalysis_0.1.ana#_EZFk4GYLEfCG3MoLFNG8Fw"/>
+  </analysisMap>
+  <context xmi:id="_EfFNQGYNEfCG3MoLFNG8Fw" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>
