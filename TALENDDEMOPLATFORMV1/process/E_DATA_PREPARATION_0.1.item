@@ -99,7 +99,7 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="120">
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_16" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kFnqsF5NEfCjUpDgh26nNw" show="false"/>
@@ -259,7 +259,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="400" posY="200">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="400" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_3" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -382,7 +382,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="360">
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_18" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kFnqsF5NEfCjUpDgh26nNw" show="false"/>
@@ -444,7 +444,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="280">
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_17" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kFnqsF5NEfCjUpDgh26nNw" show="false"/>
@@ -501,7 +501,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="200">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_1ENAoGMMEfCessLgKZlOSA" show="false"/>
@@ -714,7 +714,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="600">
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="560">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kFnqsF5NEfCjUpDgh26nNw" show="false"/>
@@ -874,7 +874,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="760">
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="720">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kFnqsF5NEfCjUpDgh26nNw" show="false"/>
@@ -931,7 +931,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="840">
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="800">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_3" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_kFnqsF5NEfCjUpDgh26nNw" show="false"/>
@@ -993,7 +993,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="360" posY="680">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="360" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -1116,7 +1116,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="DataPrepRun" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="680">
+  <node componentName="DataPrepRun" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="520" posY="720">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDataPrepRun_1" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="ZGF0YXByZXAjRGF0YVByZXAjUnVu" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="ZGF0YXByZXAjRGF0YVByZXAjZGF0YXN0b3JlI1ByZXBEYXRhU3RvcmU" show="false"/>
@@ -1125,7 +1125,7 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="LABEL" value="CLOUDCONNECT"/>
+    <elementParameter field="TEXT" name="LABEL" value="DATA PREP RECIPE"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataStore.endpoint" value="EU"/>
     <elementParameter field="TEXT" name="configuration.dataStore.endpointURL" value="&quot;https://tdp.&lt;env>.cloud.talend.com&quot;" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataStore.iamEndpoint" value="&quot;https://app.&lt;env>.cloud.talend.com&quot;" show="false"/>
@@ -1442,15 +1442,15 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="CLEANEDDATA" show="false"/>
   </connection>
-  <note opaque="true" posX="720" posY="80" sizeHeight="361" sizeWidth="641" text="A normal data workflow preparation is instructed&#xD;&#xA;by the developer and the specification outlined&#xD;&#xA;on the outset of a development">
+  <note opaque="true" posX="720" posY="0" sizeHeight="361" sizeWidth="761" text="A NORMAL DATA WORKFLOW PREPARATION &#xD;&#xA;IS INSTRUCTED BY THE DEVELOPER AND &#xD;&#xA;THE SPECIFICATION OUTLINED ON THE &#xD;&#xA;OUTSET OF A DEVELOPMENT">
     <elementParameter field="TEXT" name="FONT_SIZE" value="20"/>
   </note>
-  <note opaque="true" posX="720" posY="560" sizeHeight="401" sizeWidth="641" text="To encourage a data literate and involved workforce, &#xD;&#xA;one needs to involve relevant resources with skills&#xD;&#xA;to help remedy dirty data.. in this example, there is &#xD;&#xA;a user who is in the production department, and&#xD;&#xA;can correctly classify and fill missing data to ensure &#xD;&#xA;our analysis is better. To do this, we grant them access&#xD;&#xA;to a subset of the production data on Talend Cloud Fabric.&#xD;&#xA;&#xD;&#xA;With this dataset, they can create a cleanup recipe that &#xD;&#xA;will easily blend back into our workflow.&#xD;&#xA;&#xD;&#xA;Since the component is a translation layer, you can &#xD;&#xA;choose to locate it similarly to how a tmap would be used.">
+  <note opaque="true" posX="720" posY="520" sizeHeight="441" sizeWidth="641" text="TO FOSTER A DATA-LITERATE WORKFORCE, EMPOWER &#xD;&#xA;PRODUCTION TEAM MEMBERS TO CLEAN DATA USING &#xD;&#xA;TALEND CLOUD FABRIC.&#xD;&#xA;&#xD;&#xA;WORKFLOW:&#xD;&#xA;&#xD;&#xA;ACCESS DATA: GRANT A PRODUCTION EMPLOYEE &#xD;&#xA;ACCESS TO A SECURE SUBSET OF PRODUCTION DATA.&#xD;&#xA;&#xD;&#xA;CLEAN DATA: THEY CREATE A CLEANUP RECIPE TO FIX &#xD;&#xA;MISSING OR INCORRECT DATA, LEVERAGING DOMAIN &#xD;&#xA;EXPERTISE.&#xD;&#xA;&#xD;&#xA;INTEGRATE: THE RECIPE, ACTING LIKE A TMAP, BLENDS &#xD;&#xA;CLEANED DATA INTO THE ETL PIPELINE.&#xD;&#xA;&#xD;&#xA;BENEFITS: IMPROVES DATA QUALITY, PROMOTES DATA &#xD;&#xA;LITERACY, AND ENSURES SEAMLESS WORKFLOW &#xD;&#xA;INTEGRATION.">
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
     <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
     <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
-    <elementParameter field="TEXT" name="FONT_SIZE" value="16"/>
+    <elementParameter field="TEXT" name="FONT_SIZE" value="14"/>
   </note>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_16" show="false"/>
