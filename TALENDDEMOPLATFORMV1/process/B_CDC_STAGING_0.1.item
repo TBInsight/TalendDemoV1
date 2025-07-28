@@ -4352,6 +4352,8 @@
   <note opaque="false" posX="480" posY="400" sizeHeight="121" sizeWidth="361" text="SalesTerritory"/>
   <note opaque="false" posX="480" posY="520" sizeHeight="121" sizeWidth="361" text="&quot;SalesPerson&quot;"/>
   <note opaque="false" posX="480" posY="640" sizeHeight="121" sizeWidth="361" text="&quot;CreditCard&quot;"/>
+  <note opaque="true" posX="880" posY="1400" sizeHeight="241" sizeWidth="401" text="Eswatini - SZ&#xD;&#xA;South Sudan - SS&#xD;&#xA;Kosovo - XK&#xD;&#xA;Montenegro - ME&#xD;&#xA;Serbia - RS"/>
+  <note opaque="true" posX="1320" posY="2000" sizeHeight="80" sizeWidth="120" text="text"/>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCDC_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
